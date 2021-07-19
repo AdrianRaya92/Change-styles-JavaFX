@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="fondo" fx:id="panel" prefHeight="432.0" prefWidth="399.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="di3.FXMLDocumentController">
+   <children>
+      <Button fx:id="button1" layoutX="40.0" layoutY="87.0" mnemonicParsing="false" onAction="#cambiarEstilo1" prefHeight="45.0" prefWidth="320.0" text="Aplicar estilo 1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button id="botonestilo2" fx:id="button2" layoutX="40.0" layoutY="150.0" mnemonicParsing="false" onAction="#cambiarEstilo2" prefHeight="45.0" prefWidth="320.0" text="Aplicar estilo 2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button id="botonestilo3" fx:id="button3" layoutX="40.0" layoutY="210.0" mnemonicParsing="false" onAction="#cambiarEstilo3" prefHeight="45.0" prefWidth="320.0" text="Aplicar estilo 3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button id="reset" layoutX="40.0" layoutY="270.0" mnemonicParsing="false" onAction="#resetearEstilo" prefHeight="45.0" prefWidth="320.0" text="Resetear">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label id="titulo" layoutX="46.0" layoutY="27.0" text="Aplicación de estilo">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label id="etiquetaabajo" layoutX="201.0" layoutY="390.0" text="Creación de estilo hecha por: &#10;Adrián Raya Hernandez" textAlignment="RIGHT">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Button id="salir" layoutX="40.0" layoutY="330.0" mnemonicParsing="false" onAction="#salir" prefHeight="45.0" prefWidth="320.0" text="Salir">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

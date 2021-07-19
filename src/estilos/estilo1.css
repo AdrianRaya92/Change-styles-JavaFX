@@ -1,0 +1,39 @@
+
+
+#fondo {-fx-background-color: black;}
+
+#titulo {
+    -fx-font-family: "Helvética";
+    -fx-font-size: 36px;
+    -fx-text-fill: white; 
+    -fx-font-style: italic;
+}
+
+#etiquetaabajo {
+    -fx-font-family: "Helvética";
+    -fx-text-fill: yellow;
+    -fx-font-size: 12px;
+}
+
+Button {
+    -fx-background-color: #008287;
+    -fx-background-radius: 10;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Times New Roman";
+    -fx-font-style: italic;
+    -fx-font-size: 28px;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+}
+
+Button:hover {
+    -fx-background-color: #333333;
+    -fx-font-size: 22px;   
+}
+
+Button:pressed {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-font-weight: bold; 
+}

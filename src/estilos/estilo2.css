@@ -1,0 +1,39 @@
+
+
+#fondo {-fx-background-color: #F90000;}
+
+#titulo {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 36px;
+    -fx-text-fill: white; 
+    -fx-font-style: italic;
+}
+
+#etiquetaabajo {
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: #660099;
+    -fx-font-size: 12px;
+}
+
+Button {
+    -fx-background-color: #E6FD74;
+    -fx-background-radius: 10;
+    -fx-text-fill: #FF3399;
+    -fx-font-family: "Georgia";
+    -fx-font-style: italic;
+    -fx-font-size: 28px;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+}
+
+Button:hover {
+    -fx-background-color: #333333;
+    -fx-font-size: 22px;   
+}
+
+Button:pressed {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-font-weight: bold; 
+}
